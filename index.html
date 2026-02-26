@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Météo des neiges pour les stations de ski de la région de Genève"
+    />
+    <title>Météo des Neiges</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Météo des Neiges</h1>
+      <p>Stations de ski autour de Genève</p>
+    </header>
+
+    <main class="container" aria-label="Liste des stations">
+      <section class="stations-grid" id="stations-grid">
+        <article class="station-card" data-station="Chamonix" aria-label="Station Chamonix">
+          <h2>Chamonix</h2>
+          <p class="meta">France</p>
+          <p class="status">Données météo à venir</p>
+        </article>
+
+        <article class="station-card" data-station="Verbier" aria-label="Station Verbier">
+          <h2>Verbier</h2>
+          <p class="meta">Suisse</p>
+          <p class="status">Données météo à venir</p>
+        </article>
+
+        <article class="station-card" data-station="Zermatt" aria-label="Station Zermatt">
+          <h2>Zermatt</h2>
+          <p class="meta">Suisse</p>
+          <p class="status">Données météo à venir</p>
+        </article>
+
+        <article class="station-card" data-station="Megeve" aria-label="Station Megève">
+          <h2>Megève</h2>
+          <p class="meta">France</p>
+          <p class="status">Données météo à venir</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
